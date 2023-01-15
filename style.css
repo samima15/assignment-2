@@ -1,0 +1,159 @@
+/* header and navigation styles */
+*{
+    margin: 0;
+    font-family: Works Sans;
+    
+}
+.container{
+    
+}
+.first-header{
+    background-color: #f2e7d4 ;}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+font-size: 45px;
+padding-left:240px;
+
+}
+.list-items{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-right: 217px;
+}
+
+ ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+ }    
+
+li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.architect-group{
+   text-align: center;
+   margin-top: 100px;
+}
+.architect-group-title{
+    padding-top: 25px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.architect-group-description{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.explore {
+
+background-color: orange;
+color: white;
+width: 160px;
+height: 50px;
+margin-top: 20px;
+margin-bottom: 20px;
+border: 0;
+border-radius: 12px;
+font-size: 16px;
+
+
+
+}
+span{
+    background-color: rgb(147, 172, 164);
+    line-height: 1.6;
+}
+.picture{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.picture img{
+    width:1200px;
+    height:400px;
+
+}
+.main-grid{
+    display: flex;
+    justify-content: space-between;
+}
+.grid-pictures{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+.grid-picture img{
+    height: 300px;
+    width: 300px;
+}
+.grid-description{
+    margin-top: 250px;
+    margin-right: 220px;
+}
+.love-enjoy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 220px
+}
+.love{
+    
+}
+.love-love h1{
+font-size: 30px;
+border-left: 4px solid orange;
+}
+.joy-1{
+
+    background-color: #f6f7f8;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+   
+.joy-2{
+    background-color: #f6f7f8;
+    padding: 30px;
+    margin-top: 10px;
+}
+.joy-3{
+    background-color: #f6f7f8;
+    padding: 20px;
+    margin-top: 10px;
+}
+.joy-4{
+    background-color: #f6f7f8;
+    padding: 20px;
+    margin-top: 10px; 
+}
+.joy-1 .joy-2 .joy-3 .oy-4 h2{
+    font-size: 20px;
+}
+.enjoy img{
+   
+    width: 500px;
+    height: 800px;
+    margin : 200px 200px 200px;
+
+
+    
+}
+.box{
+    background-color: orange;
+    width: 200px;
+    height: 120px;
+    position: relative;
+    left: 140px;
+    top: -240px;
+    color: white;
+    padding-left:30px;
+    padding-top: 20px;
+}
+
+  
