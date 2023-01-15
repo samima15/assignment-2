@@ -155,5 +155,45 @@ border-left: 4px solid orange;
     padding-left:30px;
     padding-top: 20px;
 }
+/* fourth section start */
+.facts{
+    display: flex;
+    flex-direction: column;
+}
+.facts-description h1{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.facts-description p{
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+.png-pic{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+   
+}
+.icons{
+    border: 2px solid orange;
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    text-align: center;
+
+
+}
+.icons img{
+   padding-top: 40px; 
+
+}
+.icons p{
+    font-size: 40px;
+}
+.icons h3{
+
+}
 
   
