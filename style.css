@@ -225,5 +225,111 @@ border-left: 4px solid orange;
     
 }
 
+@media screen and (max-width: 576px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        background-color: antiquewhite;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .nav-title{
+        font-size: 18px;
+        text-align: center;
+        padding: 20px 100px;
+    }
+    .list-items{
+        diplay: flex;
+        flex-direction: column;
+    }
+    
+   .picture img{
+    width:350px;
+    height:250px;
+    margin: 0;
+   }
+   .architect-group-description{
+    margin: 0px;
+    padding: 0px;
+   }
+   .main-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+  
+  .grid-pictures{
+    display:flex;
+    flex-direction: column;
+  }
+  .grid-picture{
+    display:flex;
+    flex-direction: column;
+
+  }
+  .grid-description{
+   margin-left: 100px;
+  }
+  .love-enjoy{
+    display: flex;
+    flex-direction: column;
+  }
+  .png-pic{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  .sponsor-pics{
+    display:flex;
+    flex-direction: column;
+    margin-right: 20px;
+    
+
+  }
+  .enjoy img{
+    width: 570px;
+    height: 600px;
+  }
+  .icons{
+justify-content: center;
+align-items: center;
+  }
+.sponsor-pic-1,.sponsor-pic-2,.sponsor-pic-3,.sponsor-pic-4,.sponsor-pic-5{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.facts{
+    padding-top:20px;
+}
+.facts-description{
+    text-align: center;
+}
+.facts-description h1{
+    margin-left: 15px;
+}
+.facts-description p{
+    margin-left: 15px;
+}
+.box h1{
+    background-color:orange;
+}
+.love{
+    margin-right: 200px;
+    
+}
+.love-love{
+    border: 2px solid orange; 
+}
+}
+.joy-1,.joy-2,.joy-3,.joy-4{
+    border: 2px solid orange;
+}
+.sponsor-pics{
+    margin-left: 200px;
+}
+
+
 
   
